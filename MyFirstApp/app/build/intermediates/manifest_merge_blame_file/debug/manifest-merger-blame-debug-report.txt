@@ -1,0 +1,66 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.myfirstapp"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="29"
+8-->/home/user/AndroidStudioProjects/MyFirstApp/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="31" />
+9-->/home/user/AndroidStudioProjects/MyFirstApp/app/src/main/AndroidManifest.xml
+10
+11    <application
+11-->/home/user/AndroidStudioProjects/MyFirstApp/app/src/main/AndroidManifest.xml:5:5-28:19
+12        android:allowBackup="true"
+12-->/home/user/AndroidStudioProjects/MyFirstApp/app/src/main/AndroidManifest.xml:6:9-35
+13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+13-->[androidx.core:core:1.5.0] /home/user/.gradle/caches/transforms-3/255d63c0f9f8f5d12ab3191ffb377750/transformed/core-1.5.0/AndroidManifest.xml:24:18-86
+14        android:debuggable="true"
+15        android:extractNativeLibs="false"
+16        android:icon="@mipmap/ic_launcher"
+16-->/home/user/AndroidStudioProjects/MyFirstApp/app/src/main/AndroidManifest.xml:7:9-43
+17        android:label="@string/app_name"
+17-->/home/user/AndroidStudioProjects/MyFirstApp/app/src/main/AndroidManifest.xml:8:9-41
+18        android:roundIcon="@mipmap/ic_launcher_round"
+18-->/home/user/AndroidStudioProjects/MyFirstApp/app/src/main/AndroidManifest.xml:9:9-54
+19        android:supportsRtl="true"
+19-->/home/user/AndroidStudioProjects/MyFirstApp/app/src/main/AndroidManifest.xml:10:9-35
+20        android:testOnly="true"
+21        android:theme="@style/Theme.MyFirstApp" >
+21-->/home/user/AndroidStudioProjects/MyFirstApp/app/src/main/AndroidManifest.xml:11:9-48
+22        <activity
+22-->/home/user/AndroidStudioProjects/MyFirstApp/app/src/main/AndroidManifest.xml:12:9-18:20
+23            android:name="com.example.myfirstapp.DisplayMessageActivity"
+23-->/home/user/AndroidStudioProjects/MyFirstApp/app/src/main/AndroidManifest.xml:12:19-57
+24            android:parentActivityName="com.example.myfirstapp.MainActivity" >
+24-->/home/user/AndroidStudioProjects/MyFirstApp/app/src/main/AndroidManifest.xml:13:13-55
+25
+26            <!-- The meta-data tag is required if you support API level 15 and lower -->
+27            <meta-data
+27-->/home/user/AndroidStudioProjects/MyFirstApp/app/src/main/AndroidManifest.xml:15:13-17:49
+28                android:name="android.support.PARENT_ACTIVITY"
+28-->/home/user/AndroidStudioProjects/MyFirstApp/app/src/main/AndroidManifest.xml:16:17-63
+29                android:value=".MainActivity" />
+29-->/home/user/AndroidStudioProjects/MyFirstApp/app/src/main/AndroidManifest.xml:17:17-46
+30        </activity>
+31        <activity
+31-->/home/user/AndroidStudioProjects/MyFirstApp/app/src/main/AndroidManifest.xml:19:9-27:20
+32            android:name="com.example.myfirstapp.MainActivity"
+32-->/home/user/AndroidStudioProjects/MyFirstApp/app/src/main/AndroidManifest.xml:20:13-41
+33            android:exported="true" >
+33-->/home/user/AndroidStudioProjects/MyFirstApp/app/src/main/AndroidManifest.xml:21:13-36
+34            <intent-filter>
+34-->/home/user/AndroidStudioProjects/MyFirstApp/app/src/main/AndroidManifest.xml:22:13-26:29
+35                <action android:name="android.intent.action.MAIN" />
+35-->/home/user/AndroidStudioProjects/MyFirstApp/app/src/main/AndroidManifest.xml:23:17-69
+35-->/home/user/AndroidStudioProjects/MyFirstApp/app/src/main/AndroidManifest.xml:23:25-66
+36
+37                <category android:name="android.intent.category.LAUNCHER" />
+37-->/home/user/AndroidStudioProjects/MyFirstApp/app/src/main/AndroidManifest.xml:25:17-77
+37-->/home/user/AndroidStudioProjects/MyFirstApp/app/src/main/AndroidManifest.xml:25:27-74
+38            </intent-filter>
+39        </activity>
+40    </application>
+41
+42</manifest>

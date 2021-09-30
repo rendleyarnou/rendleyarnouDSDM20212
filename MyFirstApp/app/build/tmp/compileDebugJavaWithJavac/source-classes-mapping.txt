@@ -1,0 +1,6 @@
+com/example/myfirstapp/DisplayMessageActivity.java
+ com.example.myfirstapp.DisplayMessageActivity
+com/example/myfirstapp/BuildConfig.java
+ com.example.myfirstapp.BuildConfig
+com/example/myfirstapp/MainActivity.java
+ com.example.myfirstapp.MainActivity
