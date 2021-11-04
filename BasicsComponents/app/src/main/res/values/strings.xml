@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Basics Components</string>
+    <string-array name="Spinner_items">
+        <item>Opção 1</item>
+        <item>Opção 2</item>
+        <item>Opção 3</item>
+        <item>Opção 4</item>
+        <item>Opção 5</item>
+        <item>Opção 6</item>
+    </string-array>
+</resources>

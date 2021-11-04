@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.basicscomponents">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.BasicsComponents">
+        <activity
+            android:name=".GridView"
+            android:exported="false" />
+        <activity
+            android:name=".BackgroundIMG"
+            android:exported="false" />
+        <activity
+            android:name=".OptionsMenu"
+            android:exported="false" />
+        <activity
+            android:name=".RadioButtons"
+            android:exported="false" />
+        <activity
+            android:name=".SpinnerScreen"
+            android:exported="false" />
+        <activity
+            android:name=".Autocomplete"
+            android:exported="false" />
+        <activity
+            android:name=".Arrays"
+            android:exported="false" />
+        <activity
+            android:name=".EditText"
+            android:exported="false" />
+        <activity
+            android:name=".ToggleButton"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
