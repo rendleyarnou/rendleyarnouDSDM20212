@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">DSDM - Trabalho 2</string>
+    <string name="tv_idItem">ID</string>
+    <string name="tv_nameItem">Nome</string>
+    <string name="tv_cpfItem">CPF</string>
+    <string name="tv_emailItem">E-mail</string>
+    <string name="tvInfoEdit">Editar pessoa</string>
+    <string name="tvInfoAdd">Adicionar nova pessoa</string>
+    <string name="etEditHint">Insira o ID</string>
+    <string name="etHintId">ID</string>
+    <string name="etHintName">Nome</string>
+    <string name="etHintCpf">CPF</string>
+    <string name="etHintEmail">E-mail</string>
+    <string name="btnEdit">Editar</string>
+    <string name="btnAdd">Adicionar</string>
+    <string name="btnCancel">CANCELAR</string>
+    <string name="btnActionAdd">ADICIONAR</string>
+    <string name="btnActionEdit">EDITAR</string>
+</resources>
